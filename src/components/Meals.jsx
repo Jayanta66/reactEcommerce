@@ -9,7 +9,7 @@ export default function Meals() {
     data: loadedMeals,
     isLoading,
     error,
-  } = useHttp('https://reactecommercebackendnodejs-production.up.railway.app/meals', requestConfig, []);
+  } = useHttp('https://reactecommerce1-otac45bj.b4a.run/meals', requestConfig, []);
 
   if (isLoading) {
     return <p className="center">Fetching meals...</p>;

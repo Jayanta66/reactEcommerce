@@ -21,7 +21,7 @@ export default function Checkout() {
   const userProgressCtx = useContext(UserProgressContext);
 
   const { data, error, sendRequest, clearData } = useHttp(
-    'https://reactecommercebackendnodejs-production.up.railway.app/orders',
+    'https://reactecommerce1-otac45bj.b4a.run/orders',
     requestConfig
   );
 

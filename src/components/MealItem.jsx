@@ -14,7 +14,7 @@ export default function MealItem({ meal }) {
   return (
     <li className="meal-item">
       <article>
-        <img src={`https://reactecommercebackendnodejs-production.up.railway.app/${meal.image}`} alt={meal.name} />
+        <img src={`https://reactecommerce1-otac45bj.b4a.run/${meal.image}`} alt={meal.name} />
         <div>
           <h3>{meal.name}</h3>
           <p className="meal-item-price">
