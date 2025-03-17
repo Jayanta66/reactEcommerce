@@ -21,7 +21,7 @@ export default function Checkout() {
   const userProgressCtx = useContext(UserProgressContext);
 
   const { data, error, sendRequest, clearData } = useHttp(
-    'https://reactecommercefullstack.netlify.app/orders',
+    'https://reactecommercebackendnodejs-production.up.railway.app/orders',
     requestConfig
   );
 
