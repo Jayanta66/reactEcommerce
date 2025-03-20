@@ -22,14 +22,16 @@ export default function Header() {
       <div id="title">
         <img src={logoImg} alt="A restaurant" />
         <h1>tiptops</h1>
-        <h2>This site is for sale, Contact(WhatsApp) : 8910425824</h2>
-        <h2>এই ওয়েবসাইটটি বিক্রি হবে।</h2>
+
       </div>
       <nav>
         <Button textOnly onClick={handleShowCart}>
           Cart ({totalCartItems})
         </Button>
+        
       </nav>
     </header>
   );
 }
+
+
