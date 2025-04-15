@@ -4,15 +4,17 @@ import ReactDOM from 'react-dom/client';
 
 function SpringBoot() {
     return <div><h1>We provie tech solution like :</h1>
-      <h2>* website build .</h2>
-      <h2>* website develope .</h2>
-      <h2>* website customise .</h2>
-      <h2>* fix any kind of issue of website .</h2>
-      <h2>* digitalize any kind of idea or business .</h2>
+      <h2>* website build (ওয়েবসাইট তৈরি).</h2>
+      <h2>* website develop(ওয়েবসাইট তৈরি করা) .</h2>
+      <h2>* website customise (ওয়েবসাইট কাস্টমাইজ করুন).</h2>
+      <h2>* fix any kind of issue of website (ওয়েবসাইটের যেকোনো ধরণের সমস্যা সমাধান করুন) .</h2>
+      <h2>* digitalize any kind of idea or business (যেকোনো ধরণের ধারণা বা ব্যবসা ডিজিটালাইজ করুন).</h2>
 
-      <h3>You may post anything here using <a href="https://myliveweb.onrender.com/" target="_blank" rel="noopener noreferrer">
+      <h3>You may post anything here using  <a href="https://myliveweb.onrender.com/" target="_blank" rel="noopener noreferrer">
     Post
-  </a> button .</h3>
+  </a> button <span>( আপনি এখানে যেকোনো কিছু পোস্ট করতে পারেন </span><a href="https://myliveweb.onrender.com/" target="_blank" rel="noopener noreferrer">
+    Post
+  </a>  <span> বোতাম ব্যবহার করে )</span> .</h3>
       
         <a href="https://myliveweb.onrender.com/" target="_blank" rel="noopener noreferrer">
     Post
