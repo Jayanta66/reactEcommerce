@@ -3,6 +3,7 @@ import Checkout from './components/Checkout.jsx';
 import Header from './components/Header.jsx';
 import Meals from './components/Meals.jsx';
 import Donate from './components/Donate.jsx';
+import SpringBoot from './components/SpringBoot.jsx';
 import { CartContextProvider } from './store/CartContext.jsx';
 import { UserProgressContextProvider } from './store/UserProgressContext.jsx';
 
@@ -12,6 +13,7 @@ function App() {
     <UserProgressContextProvider>
       <CartContextProvider>
         <Header />
+        <SpringBoot/>
         <Donate/>
         <Meals />
         <Cart />
