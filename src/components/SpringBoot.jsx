@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 
 
 function SpringBoot() {
-    return <div><h1>We provie tech solution like :</h1>
+    return <div><h1>We provide tech solution like :</h1>
       <h2>* website build (ওয়েবসাইট তৈরি).</h2>
       <h2>* website develop(ওয়েবসাইট তৈরি করা) .</h2>
       <h2>* website customise (ওয়েবসাইট কাস্টমাইজ করুন).</h2>
